@@ -4,28 +4,19 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  z-index: 10000;
+  z-index: 100;
   ul.right-nav {
     display: flex;
     padding: 50px 175px 0 0;
     flex-direction: row;
     list-style-type: none;
-    &.white li {
-      a {
-        color: $white;
-      }
-    }
-    &.dark li {
-      a {
-        color: $dark;
-        opacity: .8;
-      }
-    }
     li {
       margin: 0 15px;
       text-transform: uppercase;
       a{
         text-decoration: none;
+        color: $dark;
+        opacity: .8;
       }
     }
   }
