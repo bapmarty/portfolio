@@ -1,0 +1,53 @@
+@import "variables";
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $backgroundColor;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  user-select: none;
+  color: $dark;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app {
+  width: 100%;
+  height: 100%;
+}
+
+.separator {
+  width: 30px;
+  height: 3px;
+}
+
+.bg-purple {
+  background-color: $purpleColor;
+}
+
+.bg-pink {
+  background-color: $pinkColor;
+}
+
+.bg-yellow {
+  background-color: $yellowColor;
+}
+
+.color-purple {
+  color: $purpleColor;
+}
+
+.color-pink {
+  color: $pinkColor;
+}
+
+.color-yellow {
+  color: $yellowColor;
+}
+@import "assets/sass/navbar";
